@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="NamespaceTypo">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".Maps">
+
+    <com.ortiz.touchview.TouchImageView
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/drawer_appbar_size"
+        android:layout_height="300dp"
+        android:id="@+id/wholeUni"
+        android:src="@drawable/whole_university"/>
+
+    <com.ortiz.touchview.TouchImageView
+        android:layout_width="wrap_content"
+        android:id="@+id/ssblock"
+        android:layout_below="@+id/wholeUni"
+        android:layout_height="300dp"
+        android:src="@drawable/map_for_ss"/>
+
+</RelativeLayout>
+</ScrollView>

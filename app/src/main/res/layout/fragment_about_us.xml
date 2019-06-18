@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_marginTop="@dimen/drawer_appbar_size"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUs">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/heading"
+        android:background="@drawable/rounded_corner"
+        android:textColor="@color/colorBlack"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:text="About Us" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/detailAboutUs"
+        android:layout_below="@+id/heading"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/about_us"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/headingPupose"
+        android:layout_below="@id/detailAboutUs"
+        android:background="@drawable/rounded_corner"
+        android:textColor="@color/colorBlack"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:text="The Purpose of QLF" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/detailPurpose"
+        android:layout_below="@+id/headingPupose"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/pupose"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/headingGoverningBodies"
+        android:layout_below="@id/detailPurpose"
+        android:background="@drawable/rounded_corner"
+        android:textColor="@color/colorBlack"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:text="Board of Governors" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/detailGB"
+        android:layout_below="@+id/headingGoverningBodies"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/gb"/>
+
+</RelativeLayout>
+</ScrollView>

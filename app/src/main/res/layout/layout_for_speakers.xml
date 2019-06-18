@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:padding="5dp"
+        android:id="@+id/speakerImage"
+        android:layout_height="100dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        android:id="@+id/speakerName"
+        android:padding="10dp"
+        android:textColor="@color/colorBlack"
+        android:text="@string/speaker_name"
+        android:layout_toRightOf = "@+id/speakerImage"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textSize="14sp"
+        android:id="@+id/speakerPosition"
+        android:paddingLeft="10dp"
+        android:text="@string/speaker_name"
+        android:layout_below="@+id/speakerName"
+        android:layout_toRightOf = "@+id/speakerImage"/>
+
+</RelativeLayout>
+</android.support.v7.widget.CardView>
